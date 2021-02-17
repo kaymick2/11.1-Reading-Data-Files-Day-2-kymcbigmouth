@@ -1,7 +1,7 @@
 import java.io.*;
-import java.util.*;
-import java.lang.*;
-import javax.annotation.processing.Filer;
+import java.util.Scanner;
+
+import java.net.*;
 
 class Main {
   public static void main(String[] args) throws Exception {
@@ -31,6 +31,16 @@ class Main {
       populacaoPais = populacaoPais.trim();
       System.out.println(nomePais);
       System.out.println(populacaoPais);
+
     }
+    // PARTE DOIS!!!!!!KKKKKKKKKKKKKKK
+    String address = "http://digicrime.com/dc.html";
+    URL digiCrime = new URL(address);
+    Scanner digiScan = new Scanner(digiCrime.openStream());
+    for (int HTMLNo = 1; digiScan.hasNextLine(); HTMLNo++) {
+      String digiLine = digiScan.nextLine();
+      System.out.println(digiLine);
+    }
+
   }
 }
