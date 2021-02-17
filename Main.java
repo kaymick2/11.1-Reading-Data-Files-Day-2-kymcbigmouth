@@ -34,7 +34,9 @@ class Main {
 
     }
     // PARTE DOIS!!!!!!KKKKKKKKKKKKKKK
-    String address = "http://digicrime.com/dc.html";
+    System.out.println("slam enter key out of rage");
+    console.nextLine();
+    String address = "https://raw.githubusercontent.com/ca25nada/spawncamping-wallhack/2.2.5/README.md";
     URL digiCrime = new URL(address);
     Scanner digiScan = new Scanner(digiCrime.openStream());
     for (int HTMLNo = 1; digiScan.hasNextLine(); HTMLNo++) {
