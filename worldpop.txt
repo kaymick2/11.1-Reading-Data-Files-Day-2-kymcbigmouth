@@ -13,7 +13,7 @@ Aruba 	101541
 Australia 	20600856
 Austria 	8205533
 Azerbaijan 	8177717
-Bahamas, The 	307451
+The Bahamas 	307451
 Bahrain 	718306
 Bangladesh 	153546901
 Barbados 	281968
@@ -46,8 +46,8 @@ Christmas Island 	1402
 Cocos (Keeling) Islands 	596
 Colombia 	45013674
 Comoros 	731775
-Congo, Democratic Republic of the 	66514506
-Congo, Republic of the 	3903318
+Democratic Republic of the Congo 	66514506
+Republic of the Congo	3903318
 Cook Islands 	21923
 Costa Rica 	4195914
 Cote d'Ivoire 	18373060
@@ -75,7 +75,7 @@ Finland 	5244749
 France 	64057790
 French Polynesia 	283019
 Gabon 	1485832
-Gambia, The 	1735464
+Gambia 	1735464
 Gaza Strip 	1537269
 Georgia 	4630841
 Germany 	82369548
@@ -111,8 +111,8 @@ Jordan 	6198677
 Kazakhstan 	15340533
 Kenya 	37953838
 Kiribati 	110356
-Korea, North 	23479089
-Korea, South 	49232844
+North Korea 	23479089
+South Korea 	49232844
 Kosovo 	2126708
 Kuwait 	2596799
 Kyrgyzstan 	5356869
@@ -138,7 +138,7 @@ Mauritania 	3364940
 Mauritius 	1274189
 Mayotte 	216306
 Mexico 	109955400
-Micronesia, Federated States of 	107665
+Federated States of Micronesia	107665
 Moldova 	4324450
 Monaco 	32796
 Mongolia 	2996081

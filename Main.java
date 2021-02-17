@@ -14,18 +14,19 @@ class Main {
     Scanner fileReadIn = new Scanner(readFile);
 
     // ableton loops but java
-    int i = 0;
     String nomePais = null;
     String populacaoPais = null;
     String line = fileReadIn.nextLine();
     for (int lineNo = 1; fileReadIn.hasNextLine(); lineNo++) {
-      line=fileReadIn.nextLine();
+      line = fileReadIn.nextLine();
+      int i = 0;
+
       while (!Character.isDigit(line.charAt(i))) {
-        nomePais = line.substring(0, i);
-        populacaoPais = line.substring(i);
+
         i++;
       }
-
+      nomePais = line.substring(0, i);
+      populacaoPais = line.substring(i);
       nomePais = nomePais.trim();
       populacaoPais = populacaoPais.trim();
       System.out.println(nomePais);
